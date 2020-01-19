@@ -28,6 +28,6 @@ def reduce(array,*starting)
   while count < array.count do
     value =  yield(value,array[count])
     count+=1
-  end 
+  end
  value
 end
